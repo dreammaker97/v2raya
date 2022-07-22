@@ -1,0 +1,17 @@
+version: "3"
+services:
+  name:
+    container_name: v2raya
+    image: mzz2017/v2raya:latest
+    volumes:
+      - ./etc/v2raya:/etc/v2raya
+      - ./etc/resolv.conf:/etc/resolv.con
+      - ./lib/modules:/lib/modules:ro
+    ports:
+      - "3080:8000"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Bangkok
+      - V2RAYA_ADDRESS=0.0.0.0:2017
+    restart: always
