@@ -9,6 +9,7 @@ services:
       - ./lib/modules:/lib/modules:ro
     ports:
       - "2017:2017"
+      - "20170-20172:20170-20172"
     environment:
       - PUID=1000
       - PGID=1000
