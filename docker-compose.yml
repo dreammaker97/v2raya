@@ -1,0 +1,10 @@
+version: "3"
+services:
+  v2raya:
+    image: mzz2017/v2raya
+    ports:
+      - "2017:2017"
+      - "20170-20172:20170-20172"
+    environment:
+      - V2RAYA_ADDRESS=0.0.0.0:2017
+    restart: always
