@@ -1,2 +1,25 @@
 TH muốn kết nối cả server với proxy (kể cả các docker container)
 sudo docker run --restart=always --name v2raya --privileged --network=host -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
+
+Tạo nhiều proxy:
+
+sudo docker-compose up
+sudo docker run --restart=always --name v2raya1 -p 31001:2017 -p 32001:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
+sudo docker run --restart=always --name v2raya2 -p 31002:2017 -p 32002:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
+sudo docker run --restart=always --name v2raya3 -p 31003:2017 -p 32003:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
+sudo docker run --restart=always --name v2raya4 -p 31004:2017 -p 32004:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
+sudo docker run --restart=always --name v2raya5 -p 31005:2017 -p 32005:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
+sudo docker run --restart=always --name v2raya6 -p 31006:2017 -p 32006:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
+sudo docker run --restart=always --name v2raya7 -p 31007:2017 -p 32007:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
+sudo docker run --restart=always --name v2raya8 -p 31008:2017 -p 32008:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
+sudo docker run --restart=always --name v2raya9 -p 31009:2017 -p 32009:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
+sudo docker run --restart=always --name v2raya10 -p 31010:2017 -p 32010:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
+sudo docker run --restart=always --name v2raya11 -p 31011:2017 -p 32011:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
+sudo docker run --restart=always --name v2raya12 -p 31012:2017 -p 32012:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
+sudo docker run --restart=always --name v2raya13 -p 31013:2017 -p 32013:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
+sudo docker run --restart=always --name v2raya14 -p 31014:2017 -p 32014:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
+sudo docker run --restart=always --name v2raya15 -p 31015:2017 -p 32015:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
+sudo docker run --restart=always --name v2raya16 -p 31016:2017 -p 32016:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
+sudo docker run --restart=always --name v2raya17 -p 31017:2017 -p 32017:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
+sudo docker run --restart=always --name v2raya18 -p 31018:2017 -p 32018:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
+sudo docker run --restart=always --name v2raya19 -p 31019:2017 -p 32019:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
