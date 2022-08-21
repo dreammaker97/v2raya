@@ -23,3 +23,4 @@ sudo docker run --restart=always --name v2raya16 -p 31016:2017 -p 32016:20170 -e
 sudo docker run --restart=always --name v2raya17 -p 31017:2017 -p 32017:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
 sudo docker run --restart=always --name v2raya18 -p 31018:2017 -p 32018:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
 sudo docker run --restart=always --name v2raya19 -p 31019:2017 -p 32019:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
+sudo docker run --restart=always --name v2raya20 -p 31020:2017 -p 32020:20170 -e V2RAYA_ADDRESS=0.0.0.0:2017 mzz2017/v2raya
